@@ -31,7 +31,8 @@ class Fragments(object):
 
     def __init__(self, summary, text, tokenize = True, case = False):
 
-        self._load_model()
+        if tokenize:
+            self._load_model()
 
         self._tokens = tokenize
 

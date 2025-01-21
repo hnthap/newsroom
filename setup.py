@@ -32,10 +32,10 @@ setup(
         # "pyrouge>=0.1.3",
         # "readability-lxml>=0.6.2",
         # "requests>=2.18.4",
-        "spacy>=2.0.4",
+        # "spacy>=2.0.4",
         # "tqdm>=4.15.0",
         # "ujson>=1.35",
-        "transformers",
+        # "transformers",
     ],
 
     entry_points = {
